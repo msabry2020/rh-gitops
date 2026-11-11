@@ -16,7 +16,7 @@ patches:
       metadata:
         name: todo-app
       spec:
-        replicas: 3
+        replicas: 5
   - patch: |-
       apiVersion: route.openshift.io/v1
       kind: Route
